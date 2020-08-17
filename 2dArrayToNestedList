@@ -1,0 +1,13 @@
+public List<List<Integer>> 2dArrayToLIstofLists(int[][] array)
+{
+List<List<Integer>> al = new ArrayList<>();
+   for(int i=0;i<array.length;i++)
+   {
+     List<Integer> l = new ArrayList<>();
+         for(int j=0;j<array[0].length;j++)
+         {
+                  l.add(array[i][j]);
+          }
+      al.add(l);
+   }
+}
